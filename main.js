@@ -1,4 +1,4 @@
-const model = "Contact";
+const model = "Chamaileon Access Token";
 let text = `
 ------
 store
@@ -45,6 +45,19 @@ Create ${model} Index Datatable
 Create ${model} Index Pagination
 Create ${model} Index Filter
 Create ${model} Index Search
+
+------
+show
+------
+Create Show ${model} Test
+Create Show ${model} Route
+Create Show ${model} Controller
+Create Show ${model} Request
+Authorize Show ${model} via Show ${model} Request
+Create Show ${model} Policy
+Create ${model} View Any Policy
+Update ${model} Read Permission via Role in Team
+Create Show ${model} Action
 
 - show
 
