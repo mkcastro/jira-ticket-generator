@@ -1,4 +1,4 @@
-const model = "Contact";
+const model = "Asset";
 let text = `
 ------
 store
@@ -21,7 +21,7 @@ create
 Create ${model} E2E Test
 Create ${model} Page
 Create ${model} Form
-Display ${model} Validation Errors
+Display Create ${model} Validation Errors
 ------
 index
 ------
@@ -38,14 +38,13 @@ Create ${model} Index Resource Pagination
 Create ${model} Collection Resource
 Create xxx ${model} Scope
 Implement xxx ${model} Scope on ${model} Collection Resource
-
+------
 Create ${model} Index Page
 Create ${model} Index Layout
 Create ${model} Index Datatable
 Create ${model} Index Pagination
 Create ${model} Index Filter
 Create ${model} Index Search
-
 ------
 show
 ------
@@ -58,6 +57,10 @@ Create ${model} View Policy
 Update ${model} Read Permission via Role in Team
 Create Show ${model} Action
 Create ${model} Resource
+------
+update
+------
+Create relationship
 
 - show
 
